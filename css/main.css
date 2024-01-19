@@ -27,6 +27,10 @@ html{
     scroll-padding-top: 2rem;
 }
 
+a{
+    text-decoration: none;
+}
+
 
 
 /* Header Navigation */
@@ -942,4 +946,243 @@ video{
 .pricing .card .card-body a:hover{
     background-color: var(--primary-color);
     color: var(--white-color);
+}
+
+
+/* Venue */
+
+.venue{
+    padding-top: 7.5rem;
+    padding-bottom: 7.5rem;  
+    background-color: var(--section-bg-color);
+}
+@media (max-width: 992px){
+    
+    .venue{
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+}
+
+
+.venue .card{
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+    border: 0;
+    border-bottom-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+}
+
+.venue .card-header{
+    background-color: var(--navbar-bg-color);
+    color: var(--white-color);
+    border-top-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+    padding: 1.5rem;
+}
+
+.venue .card-header h2{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.venue .card-body{
+    padding: 1.5rem;
+}
+
+
+.venue .card-body h5{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+
+.venue .card-body h4{
+    color: var(--dark-color);
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+
+.venue .card-body h5 a{
+    text-decoration: none;
+    color: var(--p-color);
+    transition: color 0.3s;
+    -webkit-transition: color 0.3s;
+    -moz-transition: color 0.3s;
+    -ms-transition: color 0.3s;
+    -o-transition: color 0.3s;
+}
+
+.venue .card-body h5 a:hover{
+    color: var(--primary-color);
+}
+
+/* Contact */
+
+.contact{
+    padding-top: 7.5rem;
+    padding-bottom: 7.5rem;
+    background-image: url(../images/maria-stewart-p4tj0g-_aMM-unsplash.jpg);
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.contact .form{
+    width: 65%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.contact .form .form-header{
+    padding: 2rem;
+    background-color: var(--navbar-bg-color);
+    border-top-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+}
+
+.contact .form h4{
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--white-color);
+    
+}
+
+.contact .form .form-content{
+    padding: 3rem 2rem;
+    background-color: var(--white-color);
+    border-bottom-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+}
+
+
+.contact .form .form-content input,
+.contact .form .form-content textarea{
+    background-color: var(--section-bg-color);
+    border: 0;
+    padding: 0.65rem 1.2rem;
+}
+
+
+.contact .form .form-content textarea{
+    height: 150px;
+    resize: none;
+}
+
+
+.contact .form .form-content button{
+    background-color: var(--primary-color);
+    padding: 1rem;
+    color: var(--white-color);
+    width: 100%;
+    font-weight: bold;
+    border-radius: 5rem;
+    -webkit-border-radius: 5rem;
+    -moz-border-radius: 5rem;
+    -ms-border-radius: 5rem;
+    -o-border-radius: 5rem;
+    transition: background 0.3s;
+    -webkit-transition: background 0.3s;
+    -moz-transition: background 0.3s;
+    -ms-transition: background 0.3s;
+    -o-transition: background 0.3s;
+}
+
+
+.contact .form .form-content button:hover{
+    background-color: var(--navbar-bg-color);
+}
+
+
+@media (max-width: 992px){
+    
+    .contact{
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+    
+.contact .form{
+    width: 100%;
+}
+
+}
+
+/* Footer */
+
+
+footer{
+    padding-top: 7.5rem;
+    padding-bottom: 2rem;
+}
+@media (max-width: 992px){
+    
+    footer{
+        padding-top: 5rem;
+        padding-bottom: 2rem;
+    }
+}
+
+
+footer .section-footerOne .social-icon-link{
+    font-size: 1.4rem;
+    width: 50px;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    color: var(--dark-color);
+    display: inline-block;
+    border-radius: 100px;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+
+footer .social-icon li {
+    list-style: none;
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+footer .section-footerOne .social-icon-link:hover{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+
+
+footer .section-footerTwo a{
+    color: var(--p-color);
+    transition: color 0.3s;
+    -webkit-transition: color 0.3s;
+    -moz-transition: color 0.3s;
+    -ms-transition: color 0.3s;
+    -o-transition: color 0.3s;
+}
+
+
+footer .section-footerTwo a:hover{
+    color: var(--primary-color);
+}
+
+footer .section-footerTwo .footer-menu li{
+    margin-right: 1rem;
+}
+
+footer .section-footerTwo .copyright-text{
+    color: var(--p-color);
+}
+
+footer .arrow-icon{
+    background: var(--section-bg-color);
+    border-radius: 100px;
+    color: var(--dark-color);
+    font-size: var(--h5-font-size);
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    display: inline-block;
+    margin: auto;
 }
